@@ -22,7 +22,7 @@ const Student = sequelize.define('Student', {
     total_credits: {
         type: DataTypes.DOUBLE,
         allowNull: false,
-        defaultValue: 0  // Establece el valor predeterminado en 0
+        defaultValue: 0  // Valor por defecto
     }
 }, {
     tableName: 'students',
