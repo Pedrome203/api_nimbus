@@ -8,10 +8,12 @@ app.use(cors());
 app.use(express.json());
 
 const studentRoutes = require('./modules/students');
-// const subjectsRoutes = require('./modules/subjects')
+const subjectsRoutes = require('./modules/subjects')
+const studentSubjectRoutes = require('./modules/students_subjects')
 
 app.use('/api/students', studentRoutes);
-// app.use('/api/subjects', subjectsRoutes);
+app.use('/api/subjects', subjectsRoutes);
+app.use('/api/students-subjects', studentSubjectRoutes);
 
 
 

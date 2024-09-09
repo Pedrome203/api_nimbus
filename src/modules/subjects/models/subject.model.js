@@ -16,8 +16,8 @@ const Subject = sequelize.define('Subject', {
         allowNull: false
     }
 }, {
-    tableName: 'subjects', // Nombre de la tabla en la base de datos
-    timestamps: false // Si no tienes columnas createdAt o updatedAt
+    tableName: 'subjects',
+    timestamps: false
 });
 
 module.exports = Subject;
