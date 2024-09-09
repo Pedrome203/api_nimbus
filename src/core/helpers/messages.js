@@ -14,6 +14,7 @@ module.exports = {
 
     success: {
         //success student
+        deploy: {message: 'new deploy', code: 0},
         successAddStudent: { message: 'Estudiante registrado con exito', code: 200 },
         successDeleteStudent: { message: 'Estudiante eliminado correctamente', code: 200 },
         successUpdateStudent: { message: 'El estudiante se ha actualizado correctamente', code: 200 },
